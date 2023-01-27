@@ -1,12 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="bg">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
+	
+	<script src="https://seattleowl.com/pointer.js/pointer.js"></script>
+	<link href="https://seattleowl.com/pointer.js/pointer.css" rel="stylesheet">
+	
+	<script>
+	init_pointer({
+		pointerColor: "white", 
+		ringSize: 15, 
+		ringClickSize: 10 
+	})</script>
+
 </html>
