@@ -7,7 +7,3 @@ import '/src/styles.css';
 <div class="header">
 <Header/>
 </div>
-
-<div>
-    <Hbody/>
-</div>
