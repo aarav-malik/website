@@ -38,10 +38,12 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/svelte-scroller": "^2.0.7",
 		"compression": "^1.7.4",
 		"polka": "^0.5.2",
 		"serve-static": "^1.15.0",
 		"svelte-cubed": "^0.2.1",
+		"svelte-inview": "^3.0.4",
 		"svelte-video-player": "^1.2.5",
 		"three": "^0.149.0",
 		"three-obj-loader": "^1.1.3"
