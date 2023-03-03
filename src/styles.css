@@ -104,3 +104,12 @@
     opacity: 0;
   }
 }
+
+
+.pfplink{
+  position:absolute;
+  margin-top: 5vh;
+  margin-left:97%;
+  width:5vhvh;
+  height:5vh;
+}
