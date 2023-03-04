@@ -5,6 +5,7 @@ import '/src/styles.css';
 </script>
 
 <div>
+<title>Hello</title>
 <Header/>
 </div>
 

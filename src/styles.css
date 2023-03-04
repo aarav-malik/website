@@ -19,7 +19,8 @@
 
 .headvid{
   max-height:100vh;
-  min-width: 100%;
+  min-width: 100vw;
+  overflow:hidden;
   top: 0%;
   background-position: center;
   object-fit: cover;
@@ -57,7 +58,7 @@
   height: 2vh;
   width: 2vw;
   top: 90%;
-  margin-left: 47%;
+  margin-left: 47vw;
   color: #fff;
   font-size: 70px;
   -webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
@@ -110,6 +111,11 @@
   position:absolute;
   margin-top: 5vh;
   margin-left:97%;
-  width:5vhvh;
+  width:5vh;
   height:5vh;
+}
+
+img:hover{
+  width:4vh;
+  height:4vh;
 }
