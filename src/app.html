@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" class="bg" >
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/images/icon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+	
+	<script src="/pointer/pointer.js"></script>
+	<link href="/pointer/pointer.css" rel="stylesheet">
+	
+	<script>
+	init_pointer({
+		pointerColor: "white", 
+		ringSize: 15, 
+		ringClickSize: 10 
+	})</script>
+
+</html>
