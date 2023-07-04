@@ -12,5 +12,5 @@ import '/src/styles.css';
 
 <div>
     <Hbody/>
-    <Footer/>
+    <!-- <Footer/> -->
 </div>
